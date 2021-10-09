@@ -31,9 +31,9 @@ textarea{
 }
 
 .row {
-  white-space: pre-wrap;
+  white-space: nowrap;
   height: 80px;
-  border-top: 1px solid white;;
+  margin-top: 5px;
 }
 
 .hour {
@@ -63,9 +63,25 @@ textarea{
   border-bottom-right-radius: 15px;
   background-color: #06AED5;
   color: white;
+  height: 80px;
+  width: 90px;
 }
 
 .saveBtn i:hover {
   font-size: 20px;
   transition: all .3s ease-in-out;
 }
+
+.column1 {
+  margin-left: 30px;
+  width: 80px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  text-align: center;
+}
+.column2 {
+  width: 1700px;
+  border: 2px solid black;
+  height: 80px;
+}
+
